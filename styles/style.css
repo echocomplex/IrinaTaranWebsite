@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-image: url("../resources/photos/1670716206_grizly-club-p-beskonechnie-uzori-4.jpg");
+    background-repeat: repeat-x;
+}
+
+:root {
+	--accent-color: #9AAE8B;
+	--text-color: #FFF;
+	--bg-color: #77A6F7;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('../resources/photos/2024-09-04\ 11.21.29\ AM.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.course {
+    margin: auto;
+	text-align: center;
+	font-size: 3vw;
+	color: #aabaa0;
+	font-family: "LTSuperior-Medium";
+}
+
+#courseName {
+	text-align: center;
+	font-size: 4.4vw;
+    margin: 0 auto 0 auto;
+	color: var(--accent-color);
+	font-family: "LTSuperior-Bold";
+}
+
+#cards {
+    background-image: url("../resources/photos/8aaf96b5386b94639da14ccd4a93fe01.jpg");
+    border-top: 4mm solid #9AAE8B;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cards p {
+    display: inline-block;
+    padding: 3vw;
+    background-color: black;
+    font-size: 3vw;
+    font-family: "LTSuperior-Medium";
+    color: white;
+    text-align: center;
+    max-width: 70vw;
+}
+
+#cards b {
+    font-size: 3vw;
+    font-family: "LTSuperior-Bold";
+    color: #9AAE8B;
+}
+
+@font-face {
+	font-family: "LTSuperior-Bold";
+	src: url("../resources/fonts/LT_superior/LTSuperior-Bold.otf") format("truetype");
+	font-style: normal; 
+	font-weight: normal; 
+} 
+
+@font-face {
+	font-family: "LTSuperior-Medium";
+	src: url("../resources/fonts/LT_superior/LTSuperior-Medium.otf") format("truetype");
+	font-style: normal; 
+	font-weight: normal; 
+} 
