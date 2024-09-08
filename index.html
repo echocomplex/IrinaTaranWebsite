@@ -1,25 +1,155 @@
 <!DOCTYPE html>
-<html lang="ru-RU">
-    <head>
-        <meta charset="UTF-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet", href="styles/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- <script src="libs/gsap/gsap.min.js" defer></script>
-        <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
-        <script src="libs/gsap/ScrollTrigger.min.js" defer></script> -->
-        <script src="script/index.js" defer></script>
-        <noscript>Для работы сайта требуется JavaScript. Наш сайт абсолютно безопасен и использует JS для анимаций.</noscript>
-        <title>Курс Ирины Таран</title>
-    </head>
-    <body>
-        <div id="welcome">
-            <h1 class="course">Курс Ирины Таран</h1>
-            <h1 id="courseName">Чтение поля с помощью метафорических ассоциативных карт (МАК)</h1>
-            <h1 class="course">С 17 сентября (6 недель)</h1>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Чтение поля с помощью МАК</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- FontAwesome Icons -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Чтение поля с помощью МАК</h1>
+            <p class="subtitle">Авторский курс Ирины Таран</p>
+            <p>6 недель | Начало: 17 сентября</p>
+            <a href="#signup" class="cta-button">Записаться на курс</a>
         </div>
-        <div id="cards">
-            <p><b>Метаморфические ассоциативные карты</b> - один из самых быстрых и эффективных инструментов считывания информации с поля через бессознательное клиента.</p>
+    </header>
+
+    <section id="leader">
+        <div class="container leader-section">
+            <div class="leader-image">
+                <img src="resources/photos/photo_2024-08-31_19-40-05.jpg" alt="Ирина Таран">
+            </div>
+            <div class="leader-description">
+                <h2>Ирина Таран</h2>
+                <p>Клинический психолог, арт-терапевт, бизнес-тренер, регрессолог, расстановщик и мастер холодинамики. Ирина автор курса «Чтение поля с помощью МАК» и активно применяет в своей практике различные методики работы с бессознательным, включая Эриксоновский гипноз, регрессию, МАК, холодинамику и транзактный анализ.</p>
+            </div>
         </div>
-    </body>
+    </section>
+
+    <section id="about" class="colored-section">
+        <div class="container">
+            <h2>Что такое МАК?</h2>
+            <div class="info-block">
+                <p>Метафорические ассоциативные карты (МАК) — это один из самых эффективных инструментов для работы с бессознательным через поле клиента. На курсе вы научитесь работать с картами, считывать информацию и решать ограничения, с которыми сталкивается человек. МАК можно использовать как для личных целей, так и для профессиональной практики.</p>
+                <blockquote>
+                    «Каждое слово — это код доступа к бессознательному. Мы учим считывать эти коды и перекодировать восприятие клиента для достижения изменений».
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="for-whom" class="for-whom-section">
+        <div class="container">
+            <h2>Кому подойдёт этот курс?</h2>
+            <div class="for-whom-grid">
+                <div class="whom-item">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3>Новички</h3>
+                    <p>Тем, кто хочет решить свои личные проблемы, освоить новый инструмент и познать себя через работу с МАК.</p>
+                </div>
+                <div class="whom-item">
+                    <i class="fas fa-hands-helping"></i>
+                    <h3>Специалисты</h3>
+                    <p>Профессионалы, желающие овладеть новым инструментом для помощи другим и улучшить свою практику.</p>
+                </div>
+                <div class="whom-item">
+                    <i class="fas fa-user-md"></i>
+                    <h3>Помогающие профессии</h3>
+                    <p>Психологи, коучи, эзотерики, работающие с телом, установками, мышлением и восприятием.</p>
+                </div>
+                <div class="whom-item">
+                    <i class="fas fa-book-reader"></i>
+                    <h3>Все желающие</h3>
+                    <p>Те, кто хочет научиться считывать информацию с клиента, как с открытой книги, и достигать быстрых результатов.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     
+    <section id="program" class="program-section">
+        <div class="container">
+            <h2>Программа курса</h2>
+            <div class="program-timeline">
+                <div class="timeline-item">
+                    <i class="fas fa-play-circle"></i>
+                    <div class="timeline-content">
+                        <h3>Введение в МАК</h3>
+                        <p>Основы работы с метафорическими ассоциативными картами. Как работает метод и его применение.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <i class="fas fa-tools"></i>
+                    <div class="timeline-content">
+                        <h3>Способы работы с картами</h3>
+                        <p>Изучение различных техник работы с картами для считывания информации с клиента.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <i class="fas fa-brain"></i>
+                    <div class="timeline-content">
+                        <h3>Алгоритмы работы</h3>
+                        <p>Алгоритмы ведения сессии, позиционирование терапевта и работа с различными уровнями: тело, эмоции, ум.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <i class="fas fa-user-shield"></i>
+                    <div class="timeline-content">
+                        <h3>Работа с трудными клиентами</h3>
+                        <p>Как работать с клиентами, которые оказывают сопротивление изменениям или боятся перемен.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <div class="timeline-content">
+                        <h3>Ресурсирование</h3>
+                        <p>Техники ресурсирования и поддержка клиента в процессе изменений для достижения положительных результатов.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="price" class="price-section">
+        <div class="container">
+            <h2>Стоимость курса</h2>
+            <div class="price-card">
+                <div class="price-details">
+                    <h3>42,000 рублей</h3>
+                    <p>С возможностью получить <strong>10% скидку</strong> при единовременной оплате или групповом участии.</p>
+                </div>
+                <a href="#signup" class="cta-button">Записаться сейчас</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="signup" class="signup-section">
+        <div class="container">
+            <h2>Записаться на курс</h2>
+            <p>Остались вопросы или хотите записаться? Свяжитесь с нами через мессенджеры:</p>
+            <div class="signup-links">
+                <a href="https://t.me/Taranig1" class="signup-link telegram-link">
+                    <img src="resources/photos/telegram_PNG9.png" alt="Telegram Icon">
+                    Telegram
+                </a>
+                <a href="https://vk.com/taranig" class="signup-link vk-link">
+                    <img src="resources/photos/vkontakte_PNG25.png" alt="VK Icon">
+                    ВКонтакте
+                </a>
+            </div>
+        </div>
+    </section>    
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ирина Таран. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
